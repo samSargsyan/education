@@ -1,0 +1,38 @@
+.footer{
+    width: 100%;
+    background-color: #607b62;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    a:link {
+        color: rgb(255, 255, 255);
+    }
+    
+    a:visited {
+        color: rgb(255, 255, 255);
+    }
+    
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    a:active {
+        color: rgb(255, 255, 255);
+    }
+}
+.fooL{
+    display: flex;
+    flex-direction: column;
+    gap: 2px ;
+    padding: 15px 0;
+}
+.fooC{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    textarea {
+        resize: none;
+    }
+}

@@ -1,0 +1,34 @@
+.carouselItem{
+    height: 240px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.react-multi-carousel-track{
+    gap: 10px;
+    margin-top: 50px;
+    border-top: 4px solid #607b62;
+    border-bottom: 4px solid #607b62;
+    padding: 30px 0px;
+    background-color: #d0eccfe0;
+}
+.react-multi-carousel-list{
+    margin: 0 15px;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px);
+}
+.react-multiple-carousel__arrow--left{
+    left: calc(2% + 1px);
+}
+.react-multiple-carousel__arrow {
+    min-width: 36px;
+    min-height: 36px;
+}
+.react-multi-carousel-item{
+    span{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2rem;
+    }
+}
