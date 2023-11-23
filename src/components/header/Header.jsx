@@ -21,22 +21,22 @@ const Header = () => {
 
   const menu1 = [
     {
-      title : 'Home'
+      title : 'Home',
+      link: '/'
     },
     {
-      title: 'Careers',
-      subMenu: ['Engineer','Programmer','Teacher']
+      title: 'Career',
+      subMenu: ['Engineer','Programmer','Teacher','Cashier','Nurse'],
     },
     {
-      title: 'Colleges',
-      subMenu: ['jhvjh','jbkj','gh']
-
+      title: 'College',
+      subMenu: ['Princeton','UCLA','Harvard','Stanford','Bentley']
     }
   ]
   const menu2 = [
     {
       title: 'Find a Job',
-      link: '/job'
+      link: '/findAJob'
     },
     {
       title: 'Contact',
@@ -59,13 +59,13 @@ const Header = () => {
           <ul className="menu">
             {toggle && menu1.map((item,i)=>{
               return(
-                <MenuItem key={i + Math.random() * i} toggle={true} item={item} />
+                <MenuItem key={i + Math.random() * i} toggle={true} item={item} setToggle={setToggle} />
               )
             })}
             <Link to='/'><img src={Logo} alt="Logo" id='logo-big' /></Link>
             {toggle && menu2.map((item,i)=>{
               return(
-                <MenuItem key={i + Math.random() * i} toggle={toggle} item={item}/>
+                <MenuItem key={i + Math.random() * i} toggle={toggle} item={item} setToggle={setToggle} />
               )
             })}
           </ul>

@@ -1,4 +1,4 @@
-.career{
+.college{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -6,26 +6,27 @@
     margin-top: 70px;
     color: white;
 }
-.careerImage{
+.collegeImage{
     width: 50%;
     height: 500px;
     background-color: aqua;
     background-size: cover;
 }
-.careerDescription{
+.collegeDescription{
     width: 80%;
     font-size: 20px;
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.careerTitle{
+.collegeTitle{
     margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .careerImage{
+    .collegeImage{
         width: 80%;
         height: 300px;
     }
 }
+

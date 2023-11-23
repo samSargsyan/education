@@ -8,19 +8,21 @@ import HomeCarousel from '../../components/homeCarousel/HomeCarousel';
 import Info from '../../components/info/Info';
 import Cashier from '../../images/cahier.webp';
 import Engeneer from '../../images/engeneering.jpg';
-import Coding from '../../images/programming.avif';
+import Coding from '../../images/programming.webp';
+import Nurse from '../../images/Nurse.jpg';
 import Teaching from '../../images/teaching.jpeg';
 import Stanford from '../../images/stanford.jpg';
 import UCLA from '../../images/UCLA.jpg';
 import Harvard from '../../images/HarvardUniversity.jpg';
 import Princeton from '../../images/princeton.jpg';
+import Bentley from '../../images/BentleyUniversity.webp';
 
 
 export function Education() {
   // const count = useSelector();
   // const dispatch = useDispatch();
 
-const carousleItems = [
+const carouselItems = [
   {
     title: "Cashier",
     image: Cashier,
@@ -37,9 +39,13 @@ const carousleItems = [
     title: "Programmer",
     image: Coding,
   },
+  {
+    title: "Nurse",
+    image: Nurse,
+  },
 ]
 
-const carousleItems2 = [
+const carouselItems2 = [
   {
     title: "Stanford",
     image: Stanford,
@@ -56,13 +62,17 @@ const carousleItems2 = [
     title: "Harvard",
     image: Harvard,
   },
+  {
+    title: "Bentley",
+    image: Bentley,
+  },
 ]
 
   return (
     <div>
-      <HomeCarousel carousleItems={carousleItems} />
+      <HomeCarousel carouselItems={carouselItems} link={'/career'}/>
       <Info title={'Career Info'} text={'This career page sdfghuuhgtfd rfguuhtfrhuiuy ftfghujijhugyjdcfghji gfdfghjhjg fhjkjnbvchjkljhuitr'} />
-      <HomeCarousel carousleItems={carousleItems2} />
+      <HomeCarousel carouselItems={carouselItems2} link={'/college'} />
       <Info title={'College Info'} text={'This College page sdfghuuhgtfd rfguuhtfrhuiuy ftfghujijhugyjdcfghji gfdfghjhjg fhjkjnbvchjkljhuitr'} />
     </div>
   );
