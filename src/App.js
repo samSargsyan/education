@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Header />
           <Routes>
-            <Route path="/education/" element={<Education />}>
+            <Route path="/education" element={<Education />}>
               <Route index element={<Education />} />
             </Route>
             <Route path='/contacts' element={<Contacts />} /> 

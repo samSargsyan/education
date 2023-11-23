@@ -22,7 +22,7 @@ const Header = () => {
   const menu1 = [
     {
       title : 'Home',
-      link: '/education/'
+      link: '/education'
     },
     {
       title: 'Career',
@@ -62,14 +62,14 @@ const Header = () => {
                 <MenuItem key={i + Math.random() * i} toggle={true} item={item} setToggle={setToggle} />
               )
             })}
-            <Link to='/education/'><img src={Logo} alt="Logo" id='logo-big' /></Link>
+            <Link to='/education'><img src={Logo} alt="Logo" id='logo-big' /></Link>
             {toggle && menu2.map((item,i)=>{
               return(
                 <MenuItem key={i + Math.random() * i} toggle={toggle} item={item} setToggle={setToggle} />
               )
             })}
           </ul>
-          <Link to='/education/'><img src={Logo} alt="Logo" id='logo-small' /></Link>
+          <Link to='/education'><img src={Logo} alt="Logo" id='logo-small' /></Link>
         </div>
       </section>
       </OutsideClickHandler>
