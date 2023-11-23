@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/education/static/css/main.071c4276.css",
+    "main.js": "/education/static/js/main.3ca269ae.js",
+    "static/js/787.369bfca2.chunk.js": "/education/static/js/787.369bfca2.chunk.js",
+    "static/media/BentleyUniversity.webp": "/education/static/media/BentleyUniversity.c89797a6609f0bd8898f.webp",
+    "static/media/UCLA.jpg": "/education/static/media/UCLA.1a034f13f4f75a9fe7b5.jpg",
+    "static/media/HarvardUniversity.jpg": "/education/static/media/HarvardUniversity.abd746722bed0713df10.jpg",
+    "static/media/princeton.jpg": "/education/static/media/princeton.cb17f8ef71f7438d74d1.jpg",
+    "static/media/locationSymbol.png": "/education/static/media/locationSymbol.29f404a75cd5ec1742f6.png",
+    "static/media/teaching.jpeg": "/education/static/media/teaching.f8b9f76c9a30097c3d65.jpeg",
+    "static/media/Nurse.jpg": "/education/static/media/Nurse.201503573d689ee2cb55.jpg",
+    "static/media/engeneering.jpg": "/education/static/media/engeneering.6110fd1282a469e6ad97.jpg",
+    "static/media/sam.jpg": "/education/static/media/sam.b0e6f83d1022f7c4108b.jpg",
+    "static/media/programming.webp": "/education/static/media/programming.e9a93d8c015791b8570a.webp",
+    "static/media/cahier.webp": "/education/static/media/cahier.420ced8b12be59971956.webp",
+    "static/media/contactSymbol.png": "/education/static/media/contactSymbol.541eaf64f1997adc5d95.png",
+    "static/media/logo.png": "/education/static/media/logo.9e21f1a641c75fa3641d.png",
+    "static/media/revicons.eot": "/education/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/education/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/stanford.jpg": "/education/static/media/stanford.05479d0eee4e4b2c1e8a.jpg",
+    "static/media/revicons.woff": "/education/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/education/index.html",
+    "main.071c4276.css.map": "/education/static/css/main.071c4276.css.map",
+    "main.3ca269ae.js.map": "/education/static/js/main.3ca269ae.js.map",
+    "787.369bfca2.chunk.js.map": "/education/static/js/787.369bfca2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071c4276.css",
+    "static/js/main.3ca269ae.js"
+  ]
+}
